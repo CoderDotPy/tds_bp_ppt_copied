@@ -6,6 +6,7 @@
 Gyaan Deck is a lightweight web app that lets anyone paste long-form text (markdown, prose, notes, reports) and instantly convert it into a styled, ready-to-present PowerPoint deck. Simply upload your own template, add optional guidance, and supply your preferred LLM API key — the app will handle the rest.
 
 ### Short Write-up (200–300 words)
+---
 
 The application automatically transforms long-form text or markdown into a fully structured presentation. When a user submits content along with optional guidance (such as “make this an investor pitch”), the system first sends the input to the selected Large Language Model (OpenAI, Anthropic, Gemini, or AI Pipe). The LLM is prompted with strict instructions to return JSON containing a list of slides, each with a concise title and 3–6 bullet points. This structured “slide plan” ensures the bulk text is mapped intelligently into slides that balance readability and coverage. The app also enforces slide count rules—splitting or merging content as needed to match the desired number of slides.
 
